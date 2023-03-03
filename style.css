@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+:root {
+  --color-A: #E7E7FF;
+  --color-B: #FFFFFF;
+  --color-C: #8477C9;
+  --color-D: #A4A4A4;
+  --color-E: #000000;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body{
+  width: 100vw;
+  height: 100vh;
+  background: var(--color-A);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form{
+  width: 764px;
+  height: 512px;
+  background: var(--color-B);
+  box-shadow: 0px 4px 17px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  position: relative;
+}
+
+.img-container{
+  width: 320px;
+  height: 448px;
+  background: var(--color-C);
+  box-shadow: 0px 4px 4px #E7E7FF;
+  border-radius: 5px;
+  position: absolute;
+  top: 32px;
+  left: 32px;
+  right: 412px;
+}
+
+.form-wrap{
+  width: 332px;
+  height: 418px;
+  background: var(--color-B);
+  position: absolute;
+  top: 47px;
+  right: 32px;
+  left: 400px;
+  /* background:burlywood; */
+  display: flex;
+  flex-direction: column;
+  justify-content:space-evenly;
+  align-items: center;
+}
+
+.heading-text{
+  position: absolute;
+  top: 128px;
+  left: 46px;
+  display: flex;
+  flex-direction: column;
+}
+
+.heading{
+  color: var(--color-B);
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 58px;
+  font-family: 'Lato', sans-serif;
+
+}
+
+.subheading{
+  color: var(--color-B);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  font-family: 'Lato', sans-serif;
+}
+
+.notification-container{
+  width: 300px;
+  height: 39px;
+  border: 2px solid var(--color-C);
+  border-radius: 5px;
+  box-shadow: 0px 4px 8px #E7E7FF;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.notification{
+  color: var(--color-C);
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;  
+}
+
+.select-country-container,
+.select-year-container,
+.enter-income-container,
+.income-input{
+  width: 300px;
+  height: 62px;
+  display: flex;
+  flex-direction: column;
+}
+
+.select-country-container,
+.select-year-container,
+.enter-income-container{
+  justify-content:space-between;
+}
+
+.country-residence,
+.income-year,
+.income-amount{
+  display: block;
+  color: var(--color-E);
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  font-family: 'Lato', sans-serif;
+}
+
+#country-select,
+#year-select,
+#input-amount{
+  width: 300px;
+  height: 40px;
+  padding: 12px;
+  border: 1px solid var(--color-D);
+  border-radius: 5px;
+}
+
+#input-amount{
+  border-radius: 3px;
+}
+
+.calculate-btn{
+  display: inline-block;
+  width:300px;
+  height: 43px;
+  color: var(--color-B);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  font-family: 'Lato', sans-serif;
+  background: var(--color-C);
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  box-shadow: 0px 4px 8px #E7E7FF;
+  border-radius: 5px;
+}
+
+
+

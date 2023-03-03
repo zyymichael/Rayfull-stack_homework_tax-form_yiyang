@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tax Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="form">
+
+    <div class="img-container">
+      <div class="heading-text">
+        <h1 class="heading">Tax-o-tron</h1>
+        <h3 class="subheading">The free and simple online tax calculator.</h3>
+      </div>
+    </div>
+
+    <div class="form-wrap">
+      <div class="heading2-container">
+        <h2 class="heading-2">Calculate your tax</h2>
+      </div>
+
+      <div class="notification-container">
+        <h4 class="notification">Fields marked with * are mandatory</h4>
+      </div>
+
+      <div class="select-country-container">
+        <label for="country" class="country-residence">Select your country of residence *</label>
+        <select name="countries" id="country-select">
+          <option value="australia">Australia</option>
+          <option value="the us">The US</option>
+          <option value="canada">Canada</option>
+        </select>
+      </div>
+
+      <div class="select-year-container">
+        <label for="year" class="income-year">Select an income year *</label>
+        <select name="years" id="year-select">
+          <option value="2020-2021">2020-2021</option>
+          <option value="2021-2022">2021-2022</option>
+          <option value="2022-2023">2022-2023</option>
+        </select>
+      </div>
+
+      <div class="enter-income-container">
+        <label for="income" class="income-amount">Enter your total taxable income for the income year *</label>
+        <input type="text" name="income" id="input-amount" placeholder="Amount">
+      </div>
+
+      <span class="calculate-btn">Calculate</span>
+
+    </div>
+
+  </div>
+
+  </div>
+</body>
+
+</html>
